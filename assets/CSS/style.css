@@ -3,11 +3,19 @@
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.gradient-azul{
-    background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: black;
+
+.banner-content{
+    background-image: url('../images/banner.png'), linear-gradient( #00000060, #31a9dd30, #00000060);   
+    border: #33A8DB, solid, 1px; 
+    width: 1440px;
+    height: 605px;
+}
+.logo{
+    background-color: transparent;
+}
+.imagens-fundo{
+    object-fit: cover;
+    object-position: center;
 }
 .gradient-imagem{
     background-image: linear-gradient(to bottom, #00000060, #31a9dd);
@@ -23,6 +31,9 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700px;
     font-size: 32px;
+}
+p{
+    background-color: transparent;
 }
 a{
     color: #1472B7;
