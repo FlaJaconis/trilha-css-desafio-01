@@ -9,6 +9,9 @@
     -webkit-text-fill-color: transparent;
     color: black;
 }
+.gradient-imagem{
+    background-image: linear-gradient(to bottom, #00000060, #31a9dd);
+}
 h1{
     background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
     -webkit-background-clip: text;
