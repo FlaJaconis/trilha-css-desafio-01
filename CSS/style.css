@@ -1,15 +1,19 @@
 *{
     background-color:#000000;
     color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .gradient-azul{
-    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
 h1{
-    color: #33A8DB;
-    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
 }
 h2{
     color: #33A8DB;
