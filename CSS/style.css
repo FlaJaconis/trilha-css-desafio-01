@@ -1,0 +1,35 @@
+*{
+    background-color:#000000;
+    color: #fff;
+}
+.gradient-azul{
+    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    -webkit-background-clip: text;
+}
+h1{
+    color: #33A8DB;
+    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    -webkit-background-clip: text;
+}
+h2{
+    color: #33A8DB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700px;
+    font-size: 32px;
+}
+a{
+    color: #1472B7;
+}
+span{
+    color: #33A8DB;
+}
+button{
+    color: #33A8DB;
+    background-image: linear-gradient(to top, #33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    width: 326px;
+    height: 57px;
+    border: #1472B7, solid, 2px;
+    padding: 19px, 91px;
+    gap: 31px;
+}
