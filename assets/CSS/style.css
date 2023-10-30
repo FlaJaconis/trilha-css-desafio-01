@@ -1,7 +1,9 @@
-*{
+body{
+    width: 1440px;
     background-color:#000000;
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .banner-content{
@@ -15,10 +17,8 @@
 }
 .imagens-fundo{
     object-fit: cover;
-    object-position: center;
-}
-.gradient-imagem{
-    background-image: linear-gradient(to bottom, #00000060, #31a9dd);
+    /* object-position: center; */
+
 }
 h1{
     background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
@@ -28,7 +28,6 @@ h1{
 }
 h2{
     color: #33A8DB;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700px;
     font-size: 32px;
 }
@@ -41,13 +40,22 @@ a{
 span{
     color: #33A8DB;
 }
-button{
-    color: #33A8DB;
-    background-image: linear-gradient(to top, #33A8DB, #1472B7);
-    -webkit-background-clip: text;
+.button{
+    background-color: transparent;
+    border: 2px, solid, #3BA1CD;
     width: 326px;
     height: 57px;
-    border: #1472B7, solid, 2px;
     padding: 19px, 91px;
     gap: 31px;
+}
+button{
+    background-color: transparent;
+    border: 0;
+    color: #33A8DB;
+}
+#transform-world{
+    background-image: url('../images/woman-code.png'), linear-gradient( #00000060, #31a9dd30, #00000060);  
+    background-size: 1439px 960px;
+    background-position: center -250px;
+    height: 363px;
 }
